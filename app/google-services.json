@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "105392793378",
+    "firebase_url": "https://trafficapp-b5843.firebaseio.com",
+    "project_id": "trafficapp-b5843",
+    "storage_bucket": "trafficapp-b5843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105392793378:android:ef8a11a9fe873461",
+        "android_client_info": {
+          "package_name": "com.saudisoft.tahamosaad.trafficapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105392793378-evecdtarn6pqa2e130gt7hsggfonqda3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saudisoft.tahamosaad.trafficapp",
+            "certificate_hash": "a40101227cb58224a4c87b8dac9acbd4f8c3f80f"
+          }
+        },
+        {
+          "client_id": "105392793378-k1i6663uj1cc9as1ud4v0idn7r0qbhki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5xS_aaxw9lsROrdmowiXrgOa4ejb4-yU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105392793378-k1i6663uj1cc9as1ud4v0idn7r0qbhki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

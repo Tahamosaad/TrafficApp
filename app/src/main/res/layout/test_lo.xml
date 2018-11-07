@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@mipmap/images">
+
+            <ImageView
+                android:id="@+id/textGrid2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_img"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/relativeLayout"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/textGrid"
+                android:layout_toRightOf="@+id/textGrid"
+                android:id="@+id/relativeLayout">
+
+                <TextView
+                    android:id="@+id/user_name_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/user_name_txt"
+                    android:text="email"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignMargins"
+        android:background="@color/cardview_light_background"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <Button
+            android:layout_width="@dimen/album_card_width"
+            android:layout_height="@dimen/album_card_height"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="New Button"
+            android:id="@+id/button" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/album_card_width"
+            android:layout_height="@dimen/album_card_height"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="0"
+
+            android:id="@+id/button2">
+            <ImageView
+                android:id="@+id/thumbnail2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/traffic_light_1"
+                android:contentDescription=""/>
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/thumbnail"
+                android:text="@string/Traffic_sign"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="@dimen/album_card_width"
+            android:layout_height="@dimen/album_card_height"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:background="@drawable/ic_test">
+
+            </ImageButton>
+
+        <Button
+            android:layout_width="@dimen/album_card_width"
+            android:layout_height="@dimen/album_card_height"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="New Button"
+            android:id="@+id/button4" />
+    </GridLayout>
+    </LinearLayout>
+</LinearLayout>

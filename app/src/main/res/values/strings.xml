@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Traffic App</string>
+
+
+    <!--......................................................................-->
+    <string name="Traffic_sign">Traffic Signs Training</string>
+    <string name="Driver_assist">Driver Assistant</string>
+    <string name="Exam">Traffic License Exam</string>
+    <string name="About_App">About</string>
+    <string name="Near_shop">Near Workshop</string>
+    <string name="bug_update">Common Failure</string>
+    <string name="parts_name">Important Parts</string>
+    <string name="Traffic_sign_1">Organization Signs</string>
+    <string name="Traffic_sign_2">Guided Signs</string>
+    <string name="Traffic_sign_3">Warning Signs</string>
+    <string name="Traffic_sign_4">Road LandMarks</string>
+    <string name="Traffic_points">Point Table</string>
+    <string name="quit">خروج</string>
+    <string name="ok_button">ok</string>
+    <string name="again_button">try again</string>
+
+    <string name="r_1">السرعة القصوى </string>
+    <string name="r_2">أعط الافضلية</string>
+    <string name="r_3">قف</string>
+    <string name="r_4">السرعة القصوى لسيارات النقل</string>
+    <string name="r_5">سيارات النقل تلزم اليمين</string>
+    <string name="r_6">ممنوع دخول الدرجات النارية</string>
+    <string name="r_7">ممنوع الدخول</string>
+    <string name="r_8">نهاية ادنى للسرعة</string>
+    <string name="r_9">أدنى سرعة</string>
+    <string name="r_10">ممنوع تجاوز النقل</string>
+    <string name="r_11">ممنوع التجاوز</string>
+    <string name="r_12">ممنوع تجاوز النقل</string>
+
+
+    <string name="lm_0">خط متقطع</string>
+    <string name="lm_1">انحناء الطريق</string>
+    <string name="lm_2">التقاء الطريق بأخر فرعى</string>
+    <string name="lm_3">التقاء الطريق بأخر رئيسى</string>
+    <string name="lm_4">خطوط تحذيرية</string>
+    <string name="lm_5">خط منتصف الطريق</string>
+    <string name="lm_6">خط تحديد المسار</string>
+    <string name="lm_7">منطقة فاصلة بين الاتجاهين</string>
+    <string name="lm_8">مسموح التجاوز من اليمين</string>
+    <string name="lm_9">ممنوع التجاوز قطيعا</string>
+    <string name="lm_10">خط توقف عند اشارة ضوئية</string>
+    <string name="lm_11">خط توقف عند لوحة اشارة قف</string>
+    <string name="lm_12">قف امامك طريق افضلية</string>
+    <string name="lm_13">ممنوع تجاوز النقل</string>
+
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="show_more">show more</string>
+    <string name="share">share with</string>
+    <string name="backdrop_title">Important Parts</string>
+    <string name="backdrop_subtitle" translatable="false">This Your Car Top Important Parts</string>
+
+    <string name="api_map_key" translatable="false">AIzaSyDKqXPyajZJSKQCfOZRtVasCpBeqwGSs88</string>
+    <string name="api_geo_key" translatable="false">AIzaSyBozPRfJJdOwfeZLnxOGKDfoCxge4ULiY0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_login1">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_name">User name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password2">New password</string>
+    <string name="prompt_password3">Rewrite new password</string>
+    <string name="action_sign_in">Login </string>
+
+    <string name="action_sign_up"> Sign up or register</string>
+    <string name="sign_up_btn"> Sign up </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

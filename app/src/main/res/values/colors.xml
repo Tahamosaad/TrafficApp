@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#607D8B</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#455A64</color>
+
+    <color name="primary_light">#CFD8DC</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the traninig category -->
+    <color name="Training">#FFFFFF</color>
+
+    <!-- Background color for the ex members category -->
+    <color name="Exam">#379237</color>
+
+    <!-- Background color for the tip category -->
+    <color name="Tips">#FFFFFF</color>
+
+    <!-- Background color for the about category -->
+    <color name="About">#16AFCA</color>
+
+    <color name="sign1">#e3f2fd</color>
+
+    <!-- Background color for the s2 category -->
+    <color name="sign2">#bbdefb</color>
+
+    <!-- Background color for the s3 members category -->
+    <color name="sign3">#90caf9</color>
+
+    <!-- Background color for the colors category -->
+    <color name="sign4">#BDBDBD</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="magnitude1">#4A7BA7</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 2 and 3 -->
+    <color name="magnitude2">#04B4B3</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 3 and 4 -->
+    <color name="magnitude3">#10CAC9</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 4 and 5 -->
+    <color name="magnitude4">#F5A623</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 5 and 6 -->
+    <color name="magnitude5">#FF7D50</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 6 and 7 -->
+    <color name="magnitude6">#FC6644</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 7 and 8 -->
+    <color name="magnitude7">#E75F40</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 8 and 9 -->
+    <color name="magnitude8">#E13A20</color>
+
+    <!-- Magnitude circle color for an Points with magnitude between 9 and 10 -->
+    <color name="magnitude9">#D93218</color>
+
+    <!-- Magnitude circle color for an Points with magnitude over 10 -->
+    <color name="magnitude10plus">#C03823</color>
+</resources>
+

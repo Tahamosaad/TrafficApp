@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saudisoft.tahamosaad.trafficapp.Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@mipmap/images">
+
+            <ImageView
+                android:id="@+id/textGrid"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/relativeLayout"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/profile_img"/>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/textGrid"
+                android:layout_toRightOf="@+id/textGrid">
+
+                <TextView
+                    android:id="@+id/user_name_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    />
+
+                <TextView
+                    android:id="@+id/email_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/user_name_txt"
+                    android:text="email"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:background="@color/cardview_light_background"
+            android:columnCount="2"
+            android:columnOrderPreserved="true"
+            android:fitsSystemWindows="true"
+            android:rowCount="2"
+            >
+
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/Training"
+                android:layout_width="@dimen/album_card_width"
+                android:layout_height="@dimen/album_card_height"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="20sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_row="0"
+
+
+                android:background="@color/divider"
+                android:clickable="true"
+                app:cardElevation="8dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/album_cover_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription=""
+                        android:src="@drawable/traffic_light_1"/>
+
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/thumbnail"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:text="@string/Traffic_sign"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/album_title"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Column 2 / Row 1-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/Tips"
+                android:layout_width="@dimen/album_card_width"
+                android:layout_height="@dimen/album_card_height"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="20sp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                app:cardElevation="8sp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/album_cover_height"
+
+                        android:src="@drawable/driver_assist"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/thumbnail2"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:text="@string/Driver_assist"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+
+                        android:textSize="@dimen/album_title"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/Exam"
+                android:layout_width="@dimen/album_card_width"
+                android:layout_height="@dimen/album_card_height"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="10sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="20sp"
+                android:layout_row="1"
+
+                android:background="?attr/selectableItemBackgroundBorderless"
+
+                android:clickable="true"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/album_cover_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/ic_test"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/thumbnail3"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:text="@string/Exam"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+
+                        android:textSize="@dimen/album_title"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Column 2 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/About"
+
+                android:layout_width="@dimen/album_card_width"
+                android:layout_height="@dimen/album_card_height"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_row="1"
+
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/album_cover_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/info"/>
+
+
+                    />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/thumbnail4"
+                        android:background="@color/cardview_light_background"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:text="@string/About_App"
+                        android:textAlignment="center"
+
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/album_title"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

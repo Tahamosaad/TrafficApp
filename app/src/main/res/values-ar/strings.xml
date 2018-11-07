@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Traffic App</string>
+    <string name="About_App">عن التطبيق</string>
+    <string name="Exam">أختبار القيادة</string>
+    <string name="Traffic_sign">علامات المرور</string>
+    <string name="Near_shop">اقرب وحدة صيانة</string>
+    <string name="Traffic_sign_1">علامات تنظيمية</string>
+    <string name="Traffic_sign_2">علامات ارشادية</string>
+    <string name="Traffic_sign_3">علامات تحذيرية</string>
+    <string name="Traffic_sign_4">علامات ضوئية و ارضية</string>
+    <string name="bug_update">اخطاء شائعة</string>
+    <string name="parts_name">مصطلحات هامة</string>
+
+
+    <string name="r_1">السرعة القصوى </string>
+    <string name="r_2">أعط الافضلية</string>
+    <string name="r_3">قف</string>
+    <string name="r_4">السرعة القصوى لسيارات النقل</string>
+    <string name="r_5">سيارات النقل تلزم اليمين</string>
+    <string name="r_6">ممنوع دخول الدرجات النارية</string>
+    <string name="r_7">ممنوع الدخول</string>
+    <string name="r_8">نهاية ادنى للسرعة</string>
+    <string name="r_9">أدنى سرعة</string>
+    <string name="r_10">ممنوع تجاوز النقل</string>
+    <string name="r_11">أدنى سرعة</string>
+    <string name="r_12">ممنوع تجاوز النقل</string>
+
+
+    <string name="lm_0">السرعة القصوى </string>
+    <string name="lm_1">أعط الافضلية</string>
+    <string name="lm_2">قف</string>
+    <string name="lm_3">السرعة القصوى لسيارات النقل</string>
+    <string name="lm_4">سيارات النقل تلزم اليمين</string>
+    <string name="lm_5">ممنوع دخول الدرجات النارية</string>
+    <string name="lm_6">ممنوع الدخول</string>
+    <string name="lm_7">نهاية ادنى للسرعة</string>
+    <string name="lm_8">أدنى سرعة</string>
+    <string name="lm_9">ممنوع تجاوز النقل</string>
+    <string name="lm_10">أدنى سرعة</string>
+    <string name="lm_11">ممنوع تجاوز النقل</string>
+    <string name="lm_12">أدنى سرعة</string>
+    <string name="lm_13">ممنوع تجاوز النقل</string>
+    <string name="Driver_assist">مساعد القيادة</string>
+    <string name="ok_button">موافق</string>
+    <string name="quit">خروج</string>
+    <string name="again_button">مرة اخرى</string>
+    <string name="Traffic_points">جدول النقاط</string>
+    <string name="backdrop_title">أجزاء هامة</string>
+    <string name="share">مشاركة مع</string>
+    <string name="show_more">المزيد</string>
+    <string name="action_sign_in">دخول</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="action_sign_up">تسجيل</string>
+    <string name="prompt_user_name">اسم المستخدم</string>
+    <string name="prompt_password3">اعادة كتابة كلمة المرور</string>
+    <string name="prompt_password2">كلمة المرور الجديده</string>
+    <string name="prompt_password">كلمة المرور</string>
+    <string name="prompt_email">البريد الالكترونى</string>
+    <string name="permission_rationale">يجب كتابة الايميل</string>
+    <string name="sign_up_btn">تسجيل</string>
+    <string name="title_activity_login1">دخول</string>
+</resources>
